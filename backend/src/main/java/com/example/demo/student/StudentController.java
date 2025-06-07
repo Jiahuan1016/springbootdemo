@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.*;
 import java.time.LocalDate;
 import java.time.Month;
 import java.util.List;
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "https://studentlist-frontend.onrender.com")
 @RestController
 @RequestMapping(path = "api/v1/student")
 public class StudentController {
